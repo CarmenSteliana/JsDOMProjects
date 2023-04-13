@@ -1,0 +1,108 @@
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textbox {
+    display: flex;
+    height: 80px;
+    width: 600px;
+    margin: 10px auto;
+    background-color: rgb(245, 245, 101);
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.input {
+    align-self: center;
+}
+
+.button {
+    align-self: center;
+}
+
+
+.name {
+    width: 125px;
+    font-weight: bold;
+}
+
+.phone {
+    font-weight: bold;
+    width: 125px;
+}
+
+.main-data {
+    width: 600px;
+    margin: auto;
+    background-color: rgb(245, 245, 101);
+}
+
+.item {
+    display: flex;
+    margin: 20px;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 50px;
+
+
+}
+
+.item * {
+    word-wrap: break-word;
+}
+
+.item>:nth-child(1) {
+    width: 10%;
+}
+
+.item>:nth-child(2) {
+    width: 20%;
+}
+
+.item>:nth-child(3) {
+    margin-left: 100px;
+}
+
+.item>:nth-child(4) {}
+
+.modify {
+    border: none;
+    background-color: inherit;
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.modify:hover {
+    background-color: #04AA6D;
+    color: white;
+    text-decoration: none;
+}
+
+.delete{
+    border: none;
+    background-color: inherit;
+    padding: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.delete:hover {
+    background-color: #f386c2;
+    color: white;
+    text-decoration: none;
+}
+
+.item .description{
+    font-weight: bold;
+}
+

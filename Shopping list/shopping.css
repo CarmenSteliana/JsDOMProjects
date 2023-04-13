@@ -1,0 +1,55 @@
+.through{
+    text-decoration: line-through;
+}
+
+body {
+    background-color: #d0bcfe;
+  }
+
+.main{
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 25px 100px 50px 100px
+}
+
+#text{
+    margin: 0px 5px 20px 0px;
+    padding: 10px;
+    
+}
+
+.button{
+    background-color: #72fe95;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sort{
+    background-color:#e19bfc;
+    border-radius: 5px;
+    padding: 2px 4px 2px 4px;
+    margin-bottom: 20px;
+}
+
+.action{
+    display: flex;
+    margin-left: 20px;
+    
+
+    
+}
+.color{
+    background-color:#ff9797;
+    border-radius: 5px;
+    padding: 4px 4px 4x 4px;
+    margin-left: 20px;
+    
+
+    
+    
+    
+}
+

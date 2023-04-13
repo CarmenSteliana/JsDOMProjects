@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="agenda.css">
+    <script src="agenda.js"></script>
+</head>
+
+<body>
+
+    <body>
+        <div class="title">Agenda</div>
+        <div class="textbox">
+
+            <div class="input">
+                <label for="name" class="date">Name:</label>
+                <input type="text" id="name" class="name">
+                <input type="hidden" id="item_id" value="">
+                <label for="phone" class="date">Phone:</label>
+                <input type="phone" id="phone" class="phone">
+
+            </div>
+
+            <div class="button">
+                <button type="text" id="button" class="button" onclick="add_modifyContact()">Add contact</button>
+            </div>
+
+
+        </div>
+
+        <div class="main-data">
+            <div class="item">
+                <div>Name</div>
+                <div>Phone</div>
+
+            </div>
+        </div>
+    </body>
+
+</html>

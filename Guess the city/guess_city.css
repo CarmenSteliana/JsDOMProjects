@@ -1,0 +1,73 @@
+.main {
+    max-width: 650px;
+    height: fit-content;
+    margin: 100px auto;
+    background-color: rgb(41, 188, 242);
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.requirement {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    width: 30px;
+    font-size: 1rem;
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    padding: 5px;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    gap: 5px;
+}
+
+.guess {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    gap: 5px;
+}
+
+.lifes {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    color: white;
+}

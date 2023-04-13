@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="guessColor.css">
+    <link href="https://fonts.cdnfonts.com/css/apple-chancery" rel="stylesheet">
+    <script src="guessColor.js"></script>
+</head>
+
+<body>
+    <div class="rgbColor" id="rgbColor">
+        <div id="colorRed" class="colorRed">Red:
+            <span id="valueRed" class="valueRed">0</span>
+        </div>
+        
+
+        <div id="colorGreen" class="colorGreen">Green:
+            <span id="valueGreen" class="valueGreen">0</span>
+        </div>
+       
+
+        <div id="colorBlue" class="colorBlue">Blue:
+            <span id="valueBlue" class="valueBlue">0</span>
+        </div>
+        
+        <input type="hidden" id="valueRGB" value="">
+    </div>
+
+    <div class="optionsGame">
+        <button type="text" id="newColors" class="button" onclick="resetColors()">New Colors</button>
+        <div>
+            <button type="text" id="easy" class="button" onclick="easy()">Easy</button>
+            <button type="text" id="hard" class="button" onclick="hard()">Hard</button>
+        </div>
+       
+    </div>
+
+    <div class="main" id="main"></div>
+
+    <div class="answers">
+        <div class="correct_incorrect">
+            <div class="title">Correct answers:</div>
+            <div id="numbers_correct">0</div>
+            
+        </div>
+
+        <div class="lifes">
+            <div>&#x2764;&#xFE0F;</div>
+            <div>&#x2764;&#xFE0F;</div>
+            <div>&#x2764;&#xFE0F;</div>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.game{
+    margin: 150px auto;
+    max-width: 450px;
+    aspect-ratio: 1/1;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+
+}
+
+.position{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item{
+    user-select: none;
+    pointer-events: none;
+    align-self: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+

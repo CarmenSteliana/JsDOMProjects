@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="movies.js"></script>
+    <script src="cities.js"></script>
+    <script src="cars.js"></script>
+
+    <script src="guess_city.js"></script>
+
+    <link rel="stylesheet" href="guess_city.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">HANGMAN</div>
+        <div class="subtitle">VANILLA JAVASCRIPT HANGMAN GAME</div>
+        <div class="requirement">Use the alphabet below to guess the word</div>
+        <div class="buttons" id="buttons">
+            <button type="button" class="button" data-value="A">A</button>
+            <button type="button" class="button" data-value="B">B</button>
+            <button type="button" class="button" data-value="C">C</button>
+            <button type="button" class="button" data-value="D">D</button>
+            <button type="button" class="button" data-value="E">E</button>
+            <button type="button" class="button" data-value="F">F</button>
+            <button type="button" class="button" data-value="G">G</button>
+            <button type="button" class="button" data-value="H">H</button>
+            <button type="button" class="button" data-value="I">I</button>
+            <button type="button" class="button" data-value="J">J</button>
+            <button type="button" class="button" data-value="K">K</button>
+            <button type="button" class="button" data-value="L">L</button>
+            <button type="button" class="button" data-value="M">M</button>
+            <button type="button" class="button" data-value="N">N</button>
+            <button type="button" class="button" data-value="O">O</button>
+            <button type="button" class="button" data-value="P">P</button>
+            <button type="button" class="button" data-value="Q">Q</button>
+            <button type="button" class="button" data-value="R">R</button>
+            <button type="button" class="button" data-value="S">S</button>
+            <button type="button" class="button" data-value="T">T</button>
+            <button type="button" class="button" data-value="U">U</button>
+            <button type="button" class="button" data-value="V">V</button>
+            <button type="button" class="button" data-value="W">W</button>
+            <button type="button" class="button" data-value="X">X</button>
+            <button type="button" class="button" data-value="Y">Y</button>
+            <button type="button" class="button" data-value="Z">Z</button>
+        </div>
+
+
+        <div class="categories">
+            <span>The chosen category is</span>
+            <div class="random_category" id="random_category"></div>
+        </div>
+        <div class="guess">
+            <div>_</div>
+            <div>_</div>
+            <div>_</div>
+            <div>&nbsp</div>
+            <div>_</div>
+            <div>_</div>
+            <div>_</div>
+        </div>
+        <div class="lifes">
+            <span>You have</span>
+            <div class="nr_lifes">10</div>
+            <span>lifes</span>
+        </div>
+    </div>
+</body>
+
+</html>
